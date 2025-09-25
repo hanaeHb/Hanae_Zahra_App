@@ -37,8 +37,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             text = "Hello lalakom zahra w hanae $name!"
         )
         Text(
-            text = "Hello zwinat $name!"
+            text = "Hello zwinat & iwaaa ya lmoxahidiin $name!"
         )
+
     }
 }
 
