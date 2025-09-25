@@ -47,6 +47,12 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 fun AnotherGreeting(name: String) {
     Text(text = "Hi from AnotherGreeting $name!")
 }
+
+@Composable
+fun Anotherzahra(name: String) {
+    Text(text = "Hi from AnotherGreeting $name!")
+}
+
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
