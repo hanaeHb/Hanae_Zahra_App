@@ -32,15 +32,16 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello zahra hanae $name!",
-        modifier = modifier
-    )
-    Text(
-        text = "Hello Devops $name!",
-        modifier = modifier
-    )
+    androidx.compose.foundation.layout.Column(modifier = modifier) {
+        Text(
+            text = "Hello zahra hanae $name!"
+        )
+        Text(
+            text = "Hello Devops $name!"
+        )
+    }
 }
+
 
 @Preview(showBackground = true)
 @Composable
