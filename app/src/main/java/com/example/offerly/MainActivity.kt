@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     androidx.compose.foundation.layout.Column(modifier = modifier) {
         Text(
-            text = "Hello zahra hanae $name!"
+            text = "Hello lalakom zahra w hanae $name!"
         )
         Text(
             text = "Hello Devops $name!"
